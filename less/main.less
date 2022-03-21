@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+  padding-right: 8px;
+}
+
+nav{
+  text-align: right;
+  background-color: red;
+  height: 30px;
+  width: 100%;
+  padding-top: 5px;
+  font-family: Lemon Milk;
+}
+
+nav a{
+  @media screen and (max-width: 600px) {
+    width: 600px;
+    display: none;
+
+  }
+}
+
+#menuButton{
+  color: white;
+}
+
+#menu {
+  min-height: 100px;
+  width: 100%;
+  color: white;
+  padding-bottom: 10px;
+  background-color: darkred;
+  position: relative;
+  right: 0;
+  top: 3px;
+  display: none;
+
+
+  a {
+    display: block;
+    margin-top: 25px;
+    z-index: auto;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+
+  }
+
+  @media screen and (min-width: 600px) {
+    display: none;
+
+  }
+}
+
+#menuButton{
+  height: 50px;
+  width: 50px;
+  display: block;
+  position:absolute;
+  right:0;
+
+  vertical-align: center;
+  text-align: center;
+
+  cursor:pointer;
+
+  @media screen and (min-width: 600px) {
+    display: none;
+  }
+}
+
+.indexFont {
+ font-family: Raccosetta Demo;
+}
+
+.aboutFont {
+  font-family: Pixellari;
+}
+
+.contactFonts{
+  font-family: Optima;
+}
+
+footer{
+background-color: orange;
+  height: 50px;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom:0px;
+  text-align: right;
+  color: white;
+  padding-right: 8px;
+}
+
+footer {
+  @media screen and (max-width: 600px) {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+    padding-right: 8px;
+  }
+}
+
